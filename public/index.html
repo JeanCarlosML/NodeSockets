@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+
+    <div class="form">
+        <input type="text" id="mensaje">
+        <button type="button" id="enviar">Enviar mensaje</button>
+    </div>
+    <h2>Status</h2>
+    <p id="alert-offline">Offline</p>
+    <p id="alert-online">Online</p>
+
+    <!--libreria de Web Sockets-->
+    <script src="../socket.io/socket.io.js"></script>
+    <!--Cliente Web Scokets-->
+    <script src="./js/socket-client.js"></script>
+  </body>
+</html>
